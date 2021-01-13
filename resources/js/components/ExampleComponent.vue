@@ -14,7 +14,11 @@
     </div>
 </template>
 
-<script>
+<script lang="ts">
+// TypeScript動いた
+// var a:number = 1;
+// a = a + "あ "; // 型チェック働く
+
     export default {
         mounted() {
             console.log('Component mounted.')

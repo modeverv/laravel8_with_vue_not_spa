@@ -15,6 +15,7 @@ mix
     .sourceMaps()
     .vue()
     .sass('resources/sass/app.scss', 'public/css')
+    .ts('resources/ts/**/*', 'public/js')
     .browserSync({
         proxy: {
         target: "http://homestead.test" // 最後に/は不要
